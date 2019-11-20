@@ -1,6 +1,10 @@
 package logic;
 
+import test.FileManager;
+
 import java.util.Vector;
+
+//TODO 제발 gitBranch따고 시작하자
 
 public class Ingame {
 
@@ -26,6 +30,7 @@ public class Ingame {
     public String generateWord(){
         int randomIndex = (int)(Math.random()*wordSet.size());
         return wordSet.get(randomIndex);
+
     }
 
     public void changeScene(){
